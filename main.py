@@ -2,7 +2,7 @@
 
 import webbrowser
 import sys
-from src.voice_recognize import VoiceAssitance
+from src.do_operation import do_operation
 
-bot = VoiceAssitance()
-bot.do_operation()
+if __name__ == "__main__":
+    do_operation()
